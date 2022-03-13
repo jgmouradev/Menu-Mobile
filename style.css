@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background: #000;
+}
 a {
   color: #fff;
   text-decoration: none;
@@ -15,10 +17,11 @@ a:hover {
   opacity: 0.7;
 }
 
-.logo {
+.logo  a{
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  color: #e5e5e5;
 }
 .logo p {
   font-size: 20px;
@@ -55,6 +58,9 @@ main {
   margin-left: 32px;
 
 }
+.nav-list a{
+  color: #e5e5e5;
+}
 
 .mobile-menu {
   display: none;
@@ -82,7 +88,7 @@ main {
     background: #000;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
   }
@@ -120,4 +126,99 @@ main {
 
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
+}
+.cardapio img{
+  width: 400px;
+  height: 350px;
+  border-radius: 15px;
+  opacity: 0.5;
+}
+.cardapio img:hover{
+  opacity: 1;
+  transition: 0.4s;
+}
+.cardapio .container{
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+  flex-direction: row;
+
+}
+.cardapio h1{
+  color: #e5e5e5;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 200;
+}
+.cardapio p{
+  color: #e5e5e5;
+  margin: 20px 0px 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Nanum Myeongjo', serif;
+ 
+}
+.btn_cardapio{
+  display: flex;
+  justify-content:start;
+  flex-wrap: wrap;
+}
+.itens_cardapio button{
+  width: 10rem;
+  margin: 20px;
+  padding: 10px 15px;
+  font-family: 'Nanum Myeongjo', serif;
+  border-radius: 10px;
+  background: white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+.itens_cardapio button:hover{
+  border: 1px solid white;
+  background: none;
+  color: white;
+  transition: 0.5s ease-in;
+}
+
+footer{
+  width: 100%;
+  font-family: 'Nanum Myeongjo', serif;
+  background:#e5e5e5;
+}
+footer .container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center ;
+}
+.info{
+  padding:20px;
+}
+.info li{
+  font-size: 1.5rem;
+  font-weight:600;
+}
+.info i{
+  font-size: 1.5rem;
+  margin: 17px;
+}
+.copyright p{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.social p {
+  margin: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.social i{
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  cursor: pointer;
 }
