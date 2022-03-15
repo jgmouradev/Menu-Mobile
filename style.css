@@ -165,20 +165,24 @@ main {
 .cardapio p{
   color: #e5e5e5;
   margin: 20px 0px 10px 20px;
+  text-align: center;
   font-size: 1.2rem;
   font-family: 'Nanum Myeongjo', serif;
  
 }
 .btn_cardapio{
   display: flex;
-  justify-content:start;
+  justify-content:center;
   flex-wrap: wrap;
+  margin-top: -14px;
+  margin-bottom: 50px;
 }
 .itens_cardapio button{
   width: 10rem;
   margin: 20px;
   padding: 10px 15px;
   font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
   border-radius: 10px;
   background: white;
   border: none;
@@ -187,10 +191,8 @@ main {
   
 }
 .itens_cardapio button:hover{
-  border: 1px solid white;
-  background: none;
-  color: white;
-  transition: 0.5s ease-in;
+ transition: 0.3s ease-in;
+  opacity: 0.8;
 }
 
 footer{
@@ -208,20 +210,20 @@ footer .container{
   padding:20px;
 }
 .info li{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight:600;
 }
 .info i{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 17px;
 }
 .copyright p{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
 .social p {
   margin: 20px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   text-align: center;
 }
@@ -230,4 +232,10 @@ footer .container{
   margin-bottom: 30px;
   font-size: 2rem;
   cursor: pointer;
+}
+/******************SEÇÃO RESERVAS************************/
+.main_reservas{
+  background: url(/images/reservas.jpg) no-repeat center center;
+  background-size: cover;
+  height: 88vh;
 }
