@@ -19,7 +19,7 @@ body{
 
 
 .nav-list a:hover{
-  border-bottom: 1px solid white;
+  color: #ff9e00;
   transition:0.4s;
 }
 
@@ -27,7 +27,7 @@ body{
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #e5e5e5;
+  color:#ff9e00;
 }
 .logo p {
   font-size: 20px;
@@ -184,7 +184,7 @@ main {
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 600;
   border-radius: 10px;
-  background: white;
+  background:#ff9e00;
   border: none;
   text-transform: uppercase;
   cursor: pointer;
@@ -235,7 +235,7 @@ footer .container{
 }
 /******************SEÇÃO RESERVAS************************/
 .main_reservas{
-  background: url(/images/reservas.jpg) no-repeat center center;
+  background: url(/Menu-Mobile-main/images/reservas.jpg) no-repeat center center;
   background-size: cover;
   height: 88vh;
 }
@@ -271,7 +271,6 @@ footer .container{
 }
 .reservas_form form{
   display: flex;
-  background:#e5e5e5;
   border-radius: 5px;
   flex-direction: column;
   align-items: center;
@@ -317,8 +316,8 @@ textarea{
 }
 input[type="button"]{
   width: 40%;
-  color:white;
-  background: black;
+  color:black;
+  background:#ff9e00;
   text-transform: uppercase;
   padding: 10px 15px;
   margin: 5px;
