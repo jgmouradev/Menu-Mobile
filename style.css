@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -150,6 +151,7 @@ main {
   display: flex;
   justify-content:space-evenly;
   flex-wrap:wrap;
+  margin-bottom: 50px;
   flex-direction: row;
 
 }
@@ -181,7 +183,7 @@ main {
   width: 10rem;
   margin: 20px;
   padding: 10px 15px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   border-radius: 10px;
   background:#ff9e00;
@@ -198,7 +200,8 @@ main {
 footer{
   width: 100%;
   font-family: 'Nanum Myeongjo', serif;
-  background:#e5e5e5;
+  background:#000;
+
 }
 footer .container{
   display: flex;
@@ -210,28 +213,33 @@ footer .container{
   padding:20px;
 }
 .info li{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight:600;
+  color: white;
 }
 .info i{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin: 17px;
+  color: #ff9e00;
 }
 .copyright p{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  color:white;
   font-weight: 600;
 }
 .social p {
   margin: 20px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
+  color: white;
 }
 .social i{
   margin-left: 100px;
   margin-bottom: 30px;
   font-size: 2rem;
   cursor: pointer;
+  color: #ff9e00;
 }
 /******************SEÇÃO RESERVAS************************/
 .main_reservas{
@@ -325,6 +333,53 @@ input[type="button"]{
   margin-bottom: 15px;
   border-radius: 5px;
   border: none;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+/******************SEÇÃO CONTATO************************/
+.main_contato{
+  background: url(/images/contato.jpg) no-repeat center center;
+  background-size: cover;
+  height: 88vh;
+}
+.contato .container{
+  display: flex;
+  justify-content:center;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.contato img{
+  width: 50vw;
+  height: 65vh;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  object-fit: contain;
+}
+.contato_form h1{
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height:7rem;
+  
+}
+.contato_form p{
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.contato_form form{
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-family: 'Nanum Myeongjo', serif;
 }
 
