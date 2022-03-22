@@ -235,7 +235,7 @@ footer .container{
   color: white;
 }
 .social i{
-  margin-left: 100px;
+  margin-left: 85px;
   margin-bottom: 30px;
   font-size: 2rem;
   cursor: pointer;
@@ -243,7 +243,7 @@ footer .container{
 }
 /******************SEÇÃO RESERVAS************************/
 .main_reservas{
-  background: url(/Menu-Mobile-main/images/reservas.jpg) no-repeat center center;
+  background: url(/images/reservas.jpg) no-repeat center center;
   background-size: cover;
   height: 88vh;
 }

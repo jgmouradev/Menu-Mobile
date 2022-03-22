@@ -2,8 +2,25 @@
     .logo a{
         font-size: 18px;
     }
-    .mobile-menu div {
-       margin: 8px 20px;
+    .nav-list{
+        width: 50vw;
     }
+    .cardapio img{
+        width: 265px;
+        height: 265px;
+    }
+    footer .container{
+        flex-wrap: wrap-reverse;
+    }
+    .copyright{
+        padding: 10px;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    .social{
+        padding: 10px;
+    }
+    
     
 }
