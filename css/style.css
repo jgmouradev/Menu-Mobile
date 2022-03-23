@@ -50,7 +50,7 @@ nav {
 }
 
 main {
-  background: url("bg2.jpg") no-repeat center center;
+  background: url("/images/bg2.jpg") no-repeat center center;
   background-size: cover;
   height: 88vh;
 }
@@ -82,7 +82,7 @@ main {
   transition: 0.3s;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1161px) {
   body {
     overflow-x: hidden;
   }
